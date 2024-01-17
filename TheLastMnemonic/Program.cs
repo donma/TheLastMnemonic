@@ -7,7 +7,7 @@ namespace TheLastMnemonic
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Please type 11,14,17,20 or 24 words,split by space !");
+            Console.WriteLine("Please type 11,14,17,20 or 23 words,split by space !");
 
             var inputStr = Console.ReadLine();
             inputStr = Regex.Replace(inputStr, @"\s+", " ");
